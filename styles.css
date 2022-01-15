@@ -23,6 +23,7 @@ body{
     padding: 15px 40px;
     background-image: linear-gradient(red,tomato);
     border: 1px solid whitesmoke;
+    border-radius: 20px;
 }
 
 
@@ -57,7 +58,7 @@ body{
 }
 
 .banners .banner-right img{
-    width: 300px;
+    width: 400px;
     }
 
 /* Banner Section End  */
@@ -101,7 +102,24 @@ body{
     color: #E5E5E5;
 }
 
+/* button arrow section */
 
+
+.arrow{
+    margin: 10px 70px 0 70px;
+
+}
+
+.arrow a{
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 700;
+    color: red;
+}
+
+.buttom-arrow{
+    text-align: right;   
+}
 
 
 /* footer section  */
@@ -242,6 +260,9 @@ footer a{
         .products .product-img img{
             width: 90%;
         }
+
+
+        
 
     
 }
