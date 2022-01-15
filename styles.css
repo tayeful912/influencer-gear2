@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 
 
@@ -21,14 +22,18 @@ body{
 .btn{
 
     padding: 15px 40px;
-    background-image: linear-gradient(red,tomato);
+    background-color: #5e14d4dc;
     border: 1px solid whitesmoke;
     border-radius: 20px;
 }
 
+span{
+    color: whitesmoke;
+}
 
 .title{
     margin-left: 70px;
+    color: #5e14d4dc;
     
 }
 
@@ -114,12 +119,50 @@ body{
     text-decoration: none;
     font-size: 29px;
     font-weight: 700;
-    color: red;
+    color: #5e14d4dc;
 }
 
 .buttom-arrow{
     text-align: right;   
 }
+
+
+
+/* extra section */
+
+/* contact section*/
+
+.contact-title{
+
+    font-size: 50px;
+}
+
+
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.contact-left img{
+    width: 90%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-field{
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    
+    
+    border: 3px solid #5e14d4dc;
+}
+
 
 
 /* footer section  */
@@ -128,7 +171,7 @@ body{
 footer{
 
     height: 200px;
-    background-color: #120E43;
+    background-color:#5e14d4c9;
     padding: 40px;
     margin-top: 80px;
    
@@ -186,7 +229,7 @@ footer a{
 
 
         .title{
-            font-size: 20px;
+            font-size: 30px;
             text-align: center;    
         }
         
@@ -261,6 +304,26 @@ footer a{
             width: 90%;
         }
 
+
+        /* Contact Section */
+
+
+        .contact{
+
+
+            grid-template-columns: 1fr;
+
+        }
+
+        .contact-left{
+            order: 1;
+            
+        }
+        .contact-right{
+            order: 2;
+        }
+            
+        
 
         
 
