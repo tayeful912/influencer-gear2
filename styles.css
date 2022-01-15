@@ -103,6 +103,9 @@ span{
     
 }
 
+
+/* rating section */
+
 .fa-star{
     font-size: 12px;
 }
@@ -275,8 +278,6 @@ footer a{
             width:60%;
             }
 
-       
-
 
         .banner-right{
             order: 1;
@@ -330,9 +331,5 @@ footer a{
             order: 2;
         }
             
-        
-
-        
-
     
 }
