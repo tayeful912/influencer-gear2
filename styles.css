@@ -22,7 +22,7 @@ body{
 .btn{
 
     padding: 15px 40px;
-    background-color: #5e14d4dc;
+    background-color: #E02C6D;
     border: 1px solid whitesmoke;
     border-radius: 20px;
 }
@@ -33,7 +33,7 @@ span{
 
 .title{
     margin-left: 70px;
-    color: #5e14d4dc;
+    
     
 }
 
@@ -59,7 +59,12 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    transition: transform 10s;
     
+}
+
+.banner-right:hover{
+    transform: rotate(360deg);
 }
 
 .banners .banner-right img{
@@ -95,6 +100,7 @@ span{
 
 .product-price{
     font-size: 24px;
+    
 }
 
 .fa-star{
@@ -119,7 +125,7 @@ span{
     text-decoration: none;
     font-size: 29px;
     font-weight: 700;
-    color: #5e14d4dc;
+    color: #E02C6D;
 }
 
 .buttom-arrow{
@@ -160,7 +166,7 @@ span{
     font-size: 18px;
     
     
-    border: 3px solid #5e14d4dc;
+    border: 1px solid #5e14d4dc;
 }
 
 
@@ -171,7 +177,7 @@ span{
 footer{
 
     height: 200px;
-    background-color:#5e14d4c9;
+    background-color: #0A0826;
     padding: 40px;
     margin-top: 80px;
    
