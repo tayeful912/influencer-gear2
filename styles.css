@@ -75,9 +75,26 @@ span{
 
 
 
+/* Logo Section */
+
+#logo-border{
+    border: 1px solid rgb(182, 175, 175);
+    margin: 30px 0;
+    
+}
 
 
-/* Popular Collection Section */
+.company-logo{
+    display: flex;
+    grid-gap: 20px;
+    
+}
+
+
+
+
+
+/* Popular Collection Section / Product Section */
 
 
 .products{
@@ -290,9 +307,23 @@ footer a{
         }
 
 
+        /* Logo Section */
+
+        
+
+            .company-logo{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 20px;
+                
+                
+            }
+
 
         /* Product Section */
 
+
+        
 
         .products{
   
