@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -105,10 +106,67 @@ body{
 
 
 
+
+/* footer section  */
+
+
+footer{
+
+    height: 200px;
+    background-color: #120E43;
+    padding: 40px;
+    margin-top: 80px;
+   
+}
+
+
+
+footer h1{
+
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+
+    
+}
+
+footer p{
+
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a{
+    font-size: 32px;
+    color: whitesmoke;
+
+
+}
+
+
+
 /* responsive css */
+@media (max-width:1200px) {
 
 
-@media (max-width:600px) {
+    .products{
+
+            
+            
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width:750px) {
 
 
         main{
