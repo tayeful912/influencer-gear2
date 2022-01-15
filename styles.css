@@ -33,9 +33,9 @@ span{
 
 .title{
     margin-left: 70px;
-    
-    
+       
 }
+
 
 /* Banner Section Start  */
 
@@ -235,6 +235,7 @@ footer a{
 
 
         .title{
+            margin: 0;
             font-size: 20px;
             text-align: center;    
         }
