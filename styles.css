@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* common css */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    margin: 10px 70px 0 70px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btn{
+
+    padding: 15px 40px;
+    background-image: linear-gradient(red,tomato);
+    border: 1px solid whitesmoke;
+}
+
+
+/* Banner Section Start  */
+
+.banners{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-left h1{
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+.banner-left p,.btn{
+   
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.banners .banner-right img{
+    width: 300px;
+    }
+/* .banner-right{
+    
+    background-image: url(img/Circle\ design.svg);
+    background-repeat: no-repeat;
+} */
+
+/* Banner Section End  */
+
+
+
+
+
+/* Popular Collection Section */
+
+
+
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+   
+    
+}
+
+
+.product{
+    
+    width: 300px;
+    height: 476px;
+    padding:30px 30px ;
+    box-shadow: 10px 10px 40px rgba(192, 196, 199, 0.705);
+    border-radius: 10px;
+    
+    
+}
+
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.fill{
+    color: #FFC014;
+}
+.fa-star.emty{
+    color: #E5E5E5;
+}
+
+
+
+/* responsive css */
+
+
+@media (max-width:600px) {
+
+
+        main{
+            margin:0;
+            
+        }
+
+        .title{
+            font-size: 20px;
+            text-align: center;    
+        }
+        
+
+
+        /* Banner Section */
+        .banners{        
+        grid-template-columns: 1fr;
+        height: fit-content;
+        
+         }
+
+        .banner-left{
+        align-items:center;
+        }
+
+
+        .banners .banner-left h1{
+            font-size: 20px;
+            font-weight: 600;
+            
+        }
+
+
+        .banners .banner-right img{
+            width:60%;
+            }
+
+
+        .banner-left p{
+
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+
+        .banner-right{
+            order: 1;
+            
+        }
+        .banner-left{
+            order: 2;
+            
+            text-align: center;
+        }
+
+        .banner-left h1{
+            font-size: 40px;
+        }
+
+
+
+
+
+        .products{
+
+            
+            
+            grid-template-columns: repeat(1,1fr);
+            
+        }
+
+
+        
+
+        .product{
+
+
+            width: 330px;
+    
+            
+            padding:20px 0px 20px 20px;
+            box-shadow: 10px 10px 40px rgba(192, 196, 199, 0.705);
+            border-radius: 10px;
+            
+            
+        }
+
+        .products .product-img img{
+            width: 90%;
+        }
+
+        
+    
+    
+}
