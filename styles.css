@@ -26,6 +26,11 @@ body{
 }
 
 
+.title{
+    margin-left: 70px;
+    
+}
+
 /* Banner Section Start  */
 
 .banners{  
@@ -237,6 +242,6 @@ footer a{
         .products .product-img img{
             width: 90%;
         }
-         
+
     
 }
